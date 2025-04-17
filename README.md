@@ -59,15 +59,6 @@ The script will automatically compile the necessary files, run the tests for eac
 ./run.sh
 ```
 
-### Pass an Optional Argument to Test the **Bonus** Version
-You can run the tests for the **Bonus version** of `get_next_line` (if you have a bonus implementation) by passing `1` as an argument to the script:
-
-```bash
-./run.sh 1
-```
-
-This will use `get_next_line_bonus.c` and `get_next_line_utils_bonus.c` for testing instead of the regular version.
-
 ### Example Output
 If all tests pass, you'll see:
 ```bash
