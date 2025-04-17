@@ -73,7 +73,6 @@ Your GNL has errors! Do not join the dark side, you don't need it!
 ## **Buffer Sizes**
 The script tests your implementation using a variety of **buffer sizes**, including some edge cases:
 - **1, 2, 16, 32, 128, 1024, 4096, 16384**
-- **Invalid buffer sizes** like `0` and negative values are also handled to check how your implementation behaves in these situations.
 
 ## **How the Tests Work**
 For each buffer size:
