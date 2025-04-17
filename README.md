@@ -45,11 +45,6 @@ brew install valgrind
 
 2. Make sure your `get_next_line.c` and `get_next_line_utils.c` files are in the parent directory or adjust the paths in the script to match the location of your source files.
 
-3. Compile the tester:
-   ```bash
-   gcc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c tester.c -o gnl_test
-   ```
-
 ## **Usage**
 
 ### Run the Tests
